@@ -3,7 +3,6 @@ import FormControl from "@mui/joy/FormControl";
 import Radio, { radioClasses } from "@mui/joy/Radio";
 import RadioGroup from "@mui/joy/RadioGroup";
 import Sheet from "@mui/joy/Sheet";
-import Typography from "@mui/joy/Typography";
 import { Controller, useForm } from "react-hook-form";
 import { Box } from "@mui/material";
 

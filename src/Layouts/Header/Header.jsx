@@ -13,7 +13,7 @@ export const Header = ({ headerClass }) => {
 	const navigate = useNavigate();
 	
   return (
-		<div  className='bg-white'>
+		<div className="bg-white sticky top-0 z-30 w-full shadow">
 			<div className="px-20 py-4 flex justify-between">
 				<div className="flex justify-between gap-2">
 					<NavContainer>
@@ -26,7 +26,7 @@ export const Header = ({ headerClass }) => {
 						</Link>
 					</NavContainer>
 				</div>
-				<div className=''>
+				<div className=" ">
 					<MainContainer>
 						<Link opacity={"60"} classname={"flex items-center"}>
 							<DarkMode sx={{ width: "14px", height: "14px" }} />
@@ -43,12 +43,10 @@ export const Header = ({ headerClass }) => {
 				</div>
 			</div>
 			<Divider />
-			<div
-				className='items-center py-4 px-20 flex justify-between '
-			>
+			<div className="items-center py-4 px-20 flex justify-between  ">
 				<Grid item xs={6}>
 					<NavContainer>
-						<Link to='/'>
+						<Link to="/">
 							<Logo />
 						</Link>
 						<Link opacity={"100"} textsize={"lg"} classname={"font-medium"}>
@@ -74,7 +72,12 @@ export const Header = ({ headerClass }) => {
 							<Favorite />
 						</SecondaryBtn>
 						<SecondaryBtn>Войти</SecondaryBtn>
-					  <PrimaryBtn onClick={() => { navigate('/addpost');  console.log("ssss")}}>
+						<PrimaryBtn
+							onClick={() => {
+								navigate("/addpost");
+								console.log("ssss");
+							}}
+						>
 							<Add />
 							Добавить объявление
 						</PrimaryBtn>

@@ -3,7 +3,6 @@
 
 import PrimaryBtn from "../../Components/Buttons/PrimaryBtn";
 import SecondaryBtn from "../../Components/Buttons/SecondaryBtn";
-import TextFieldStyled from "../../Components/Inputs/TextField";
 import SectionApartmentDetails from "../../Sections/PostPageSections/SectionApartmentDetails/SectionApartmentDetails";
 import SectionApartmentInfo from "../../Sections/PostPageSections/SectionApartmentInfo/SectionApartmentInfo";
 import SectionApartmentProperties from "../../Sections/PostPageSections/SectionApartmentProperties/SectionApartmentProperties";

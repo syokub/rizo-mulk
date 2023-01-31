@@ -1,4 +1,3 @@
-import { PRIMARY_COLOR, TEXT_COLOR } from "../../Constants/Colors";
 import { Button } from "@mui/material";
 import React from "react";
 

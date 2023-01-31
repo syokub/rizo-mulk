@@ -3,7 +3,6 @@ import {ReactComponent as Uzcard} from "../Assets/Icons/UzcardIcon.svg"
 import {ReactComponent as Click} from "../Assets/Icons/ClickIcon.svg"
 import {ReactComponent as Payme} from "../Assets/Icons/PaymeIcon.svg"
 import {ReactComponent as Humo} from "../Assets/Icons/HumoIcon.svg"
-import {ReactComponent as Paynet} from "../Assets/Icons/Paynet.svg"
 export const PaymentTypes = [
 	{
 		id: 1,

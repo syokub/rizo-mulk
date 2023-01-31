@@ -1,9 +1,7 @@
-import CheckIcon from "@mui/icons-material/Check";
 import Box from "@mui/joy/Box";
 import Chip from "@mui/joy/Chip";
 import Radio from "@mui/joy/Radio";
 import RadioGroup from "@mui/joy/RadioGroup";
-import Typography from "@mui/joy/Typography";
 import * as React from "react";
 
 export const RadioChip = ({apartmentDetailsOptions}) => {

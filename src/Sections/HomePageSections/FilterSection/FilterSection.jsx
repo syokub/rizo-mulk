@@ -1,11 +1,9 @@
-import { ArrowDropDownCircle, NearMe, Person, Search, ZoomIn } from '@mui/icons-material';
-import { FormControl, Grid, InputLabel, NativeSelect } from '@mui/material';
-import { Box } from '@mui/system';
-import React, { useState } from 'react'
+import { ArrowDropDownCircle, NearMe, ZoomIn } from '@mui/icons-material';
+import { FormControl, InputLabel, NativeSelect } from '@mui/material';
+import React from 'react'
 import { Controller, useForm } from 'react-hook-form';
 import ExtendedBtn from '../../../Components/Buttons/ExtendedBtn';
 import PrimaryBtn from '../../../Components/Buttons/PrimaryBtn';
-import SecondaryBtn from '../../../Components/Buttons/SecondaryBtn';
 import FilterHook from '../../../Hooks/FilterHook';
 export const FilterSection = () => {
 	

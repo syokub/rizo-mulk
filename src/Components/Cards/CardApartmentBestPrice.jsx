@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -8,8 +8,8 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 // import required modules
-import { Pagination, Navigation } from "swiper";
-import { Button, Divider, IconButton } from "@mui/material";
+import { Pagination } from "swiper";
+import {  Divider, IconButton } from "@mui/material";
 import NavContainer from "../Containers/NavContainer";
 import { ArrowBack, ArrowForward, AutoAwesome, DirectionsSubway, FavoriteBorder, Home, SquareFoot } from "@mui/icons-material";
 import FavoriteBtn from "../Buttons/FavoriteBtn";

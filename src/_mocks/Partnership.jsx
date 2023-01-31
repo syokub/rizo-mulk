@@ -2,7 +2,6 @@ import {ReactComponent as Partner1 } from "../Assets/Icons/Partner1.svg"
 import {ReactComponent as Partner2 } from "../Assets/Icons/Partner2.svg"
 import {ReactComponent as Partner3 } from "../Assets/Icons/Partner3.svg"
 import { ReactComponent as Partner4 } from "../Assets/Icons/Partner4.svg"
-import { ReactComponent as Partner } from "../Assets/Icons/PartnerProgram.jpg"
 
 
 export const Partnership = [

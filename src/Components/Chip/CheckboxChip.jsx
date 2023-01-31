@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import CheckIcon from '@mui/icons-material/Check';
 import Box from '@mui/joy/Box';
 import Checkbox from '@mui/joy/Checkbox';
 import Chip from '@mui/joy/Chip';
-import Typography from '@mui/joy/Typography';
 
 export const CheckboxChip = ({ apartmentDetailsOptions }) =>{
 	const [selected, setSelected] = useState([]);

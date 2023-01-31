@@ -1,7 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import AddPost from "../Pages/AddPost/AddPost";
-import { MainPage } from "../Pages/Main/MainPage";
 import Layout from "./components/Layout/Layout";
 
 const MainRoutes = () => {

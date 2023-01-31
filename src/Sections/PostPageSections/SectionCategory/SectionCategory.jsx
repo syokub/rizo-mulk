@@ -1,12 +1,10 @@
 import React from 'react'
-import {  useForm } from 'react-hook-form';
 import CustomRadio from '../../../Components/CustomRadio/CustomRadio';
 import { apartmentType } from '../../../_mocks/ApartmentType';
 import { sellTyle } from '../../../_mocks/SellType';
 
 
 export const SectionCategory = () => {
-    const { handleSubmit, control } = useForm();
 
 
   return (

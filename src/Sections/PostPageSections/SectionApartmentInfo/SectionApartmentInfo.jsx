@@ -1,11 +1,11 @@
-import { FormControl, Grid, InputLabel, TextField } from '@mui/material';
+import { FormControl, Grid } from '@mui/material';
 import React from 'react'
 import { Controller, useForm } from 'react-hook-form';
 import RadioChip from '../../../Components/Chip/RadioChip';
 import TextFieldStyled from '../../../Components/Inputs/TextField';
 
 export const SectionApartmentInfo = () => {
-    const { handleSubmit, control } = useForm();
+    const {  control } = useForm();
 
 
   return (
